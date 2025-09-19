@@ -17,7 +17,7 @@ export default function Home() {
           <p className={`text-5xl font-bold text-center ${poppins.className}`}>The Best URL shortener in the Market</p>
           <p className="px-56 text-center" >We are the most straightforward URL shortener in the world. Most of the url shortener will track you or ask you to give your details for login. we understand your needs and hence we have created this url shortener</p>
           <div className='flex gap-3 justify-start'>
-            <Link href='/generate'><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1.5 font-bold text-white'>Try Now</button></Link>
+            <Link href='/shorten'><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1.5 font-bold text-white'>Try Now</button></Link>
             <Link href='/github'><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1.5 font-bold text-white'>Git Hub</button></Link>
           </div>
         </div>

@@ -17,7 +17,7 @@ const Navbar2 = () => {
         <Link href="/shorten"><li>Shorten</li></Link>
         <Link href="/contact"><li>Contact Us</li></Link>
         <li className="flex gap-3">
-          <Link href="/generate"><button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold">Try Now</button></Link>
+          <Link href="/shorten"><button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold">Try Now</button></Link>
           <Link href="/github"><button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold">Git Hub</button></Link>
         </li>
       </ul>
@@ -38,7 +38,7 @@ const Navbar2 = () => {
           <Link href="/shorten" onClick={() => setIsOpen(false)}><li>Shorten</li></Link>
           <Link href="/contact" onClick={() => setIsOpen(false)}><li>Contact Us</li></Link>
           <li className="flex flex-col gap-2">
-            <Link href="/generate" onClick={() => setIsOpen(false)}>
+            <Link href="/shorten" onClick={() => setIsOpen(false)}>
               <button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold w-full">
                 Try Now
               </button>
