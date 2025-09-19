@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [url, seturl] = useState("")
     const [shorturl, setshorturl] = useState("")
     const [generated, setGenerated] = useState(false)
@@ -48,4 +48,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

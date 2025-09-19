@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-start relative">
-          <Image className="mix-blend-darken" alt="Sorry Some Error Occurred" src={"/vector.jpg"} fill={true} />
+          <Image className="mix-blend-darken" alt="Sorry Some Error Occurred" src={"/vector.jpg"} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority />
         </div>
       </section>
     </main>
